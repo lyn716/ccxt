@@ -128,6 +128,7 @@ class Exchange(object):
 
     hasPublicAPI = True
     hasPrivateAPI = True
+    hasWebSocketAPI = True
     hasCORS = False
     hasFetchTicker = True
     hasFetchOrderBook = True
